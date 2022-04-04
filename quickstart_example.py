@@ -16,7 +16,7 @@ async def connect():
 
 		# Printing out data
 		async for message in websocket:
-			print(message)
+                    print(message)
 
 if __name__ == "__main__":
 	asyncio.run(connect())
